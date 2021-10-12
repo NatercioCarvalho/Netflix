@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+/* header, main e form*/
+
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+
+}
+
+.Header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    top: 28px;
+    left: 56px;
+}
+
+.Header a {
+    display: inline-block;
+    background-color: #bb0a12;
+    color: #fff;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.main {
+    padding-top: -50rem;
+    height: 785px;
+    background: url("/img/bg.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main h1 {
+    font-size: 50px;
+    max-width: 650px;
+    
+}
+
+.main span {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.form-cta input {
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.form-cta button {
+    background-color: #bb0a12;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.form-cta button::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: url("../img/seta.svg");
+    margin-left: 20px;
+}
+
+.form-cta button:hover {
+    background-color: #bb0a12;
+}
+
+.main p {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.main .main-child {
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+
+.gradiente {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0,0,0, .8) 0, rgba(0,0,0,0) 60%,rgba(0,0,0, .8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
