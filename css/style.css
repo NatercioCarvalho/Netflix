@@ -12,7 +12,7 @@ img{
     display: block;
     max-width: 100%;
 }
-/* header, main e form*/
+/*header, main e form*/
 
 .container{
     max-width: 1130px;
@@ -182,4 +182,26 @@ img{
 
 .crianca .img-criança{
     order: 1;
+}
+
+/*footer*/
+
+.footer .form-cta{
+    margin-top: 0;
+}
+
+.footer{
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: black;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+
+}
+
+.footer p{
+    margin-top: 2rem;
+    color: #757575;
+    font-size: 13px;
 }
